@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+	background: rgb(23, 33, 43);
+}
+
+body {
+	max-width: 419px;
+	margin: 0 auto;
+}
+
+.card__logo {
+	padding: 5px
+}
+
+.card__logo svg, .card__logo img {
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.card {
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.card__header {
+	margin: 5px 0 8px 0;
+}
+
+.CarBrands {
+	display: flex;
+	justify-content: space-around;
+	gap: 5px;
+	padding: 10px 0;
+	flex-wrap: wrap;
+	min-width: 324px;
+}
+
+.checkLink {
+	text-decoration: none;
+	border-radius: 5px;
+	background: rgb(248, 169, 23);
+	padding: 3px 5px;
+	color: white;
+	font-weight: 700;
+	animation-duration: .5s;
+}
+
+.checkLink:hover {
+	transition: .5s;
+	background-color: #aa7411;
+}
