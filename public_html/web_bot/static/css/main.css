@@ -58,3 +58,75 @@ body {
 	transition: .5s;
 	background-color: #aa7411;
 }
+
+.modelItem {
+	color: white;
+	background: #386b87;
+	padding: 10px 5px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.carModels {
+	padding: 10px 0
+}
+
+.modelItem__footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3px 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+}
+
+.cardFooter__text {
+	border-bottom: 2px solid transparent;
+}
+
+.modelItem__footer a * {
+	display: block;
+}
+
+.modelItem__header {
+	font-weight: 500;
+	font-size: 24pt;
+	margin: 0 0 4px 0;
+}
+
+.modelItem__image {
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.modelItem__image img {
+	max-width: 100%
+}
+
+.modelItem__footer a svg {
+	width: 16px;
+	height: 16px;
+}
+
+.modelItem__price {
+	font-weight: 700;
+	font-size: 16pt;
+	margin: 10px 0 2px 0;
+}
+
+.modelItem__desc {
+	margin-bottom: 6px;
+	opacity: .8;
+	padding-left: 15px;
+	border-left: 3px solid white;
+	margin-left: 5px;
+}
+
+.cardFooter__arrow svg {
+	filter: invert(1);
+}
+
+.modelItem__footer:hover .cardFooter__text {
+	border-bottom: 2px solid white;
+}
